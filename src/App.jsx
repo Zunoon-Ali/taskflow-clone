@@ -1,12 +1,15 @@
-import React from "react"
+import React from 'react'
+import Header from "./components/header"
+import Hero from "./components/hero"
+
 function App() {
-
   return (
-    <>
-
-      <h1 className="text-3xl font-bold underline bg-red-300">Hello</h1>
-      <p className="text-3xl font-bold underline bg-gray-800">sdads</p>
-    </>
+    <div className="w-full min-h-screen overflow-x-hidden">
+      <Header />
+      <main>
+        <Hero />
+      </main>
+    </div>
   )
 }
 
