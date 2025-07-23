@@ -12,6 +12,11 @@ import MultipleProjectTask from './components/MultipleProjectTask'
 import AvailableMacIphone from './components/AvailableMacIphone'
 import SubstackAttachement from './components/SubstackAttachement';
 import AddNotes from './components/AddNotes';
+import TimerEnhanced from './components/TimerEnhanced';
+import Spacer from './components/Spacer';
+import DarkMode from './components/DarkMode';
+import Roadmap from './components/Roadmap';
+import Testimonials from './components/Testimonials';
 
 function App() {
     useEffect(() => {
@@ -20,7 +25,7 @@ function App() {
   return (
     <div className="w-full min-h-screen overflow-x-hidden">
       <Header />
-      <main className='flex flex-col gap-5'>
+      <main className='flex flex-col'>
         <Hero />
         <MeetTask />
         <BLBL />
@@ -30,6 +35,12 @@ function App() {
         <AvailableMacIphone />
         <SubstackAttachement />
         <AddNotes />
+        <TimerEnhanced />
+        <Spacer/>
+        <DarkMode />
+        <Spacer gradient="bg-gradient-to-b from-black via-gray-900 to-gray-100" />
+        <Roadmap />
+        <Testimonials />
       </main>
     </div>
   );
