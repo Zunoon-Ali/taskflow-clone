@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaApple, FaYoutube } from 'react-icons/fa';
+import AppStoreBtn from './AppStoreBtn';
 
 function Hero() {
     return (
         <section id="hero" className="my-3 md:my-12 py-3 md:py-12">
-            <div className="hero-flex-div flex flex-col md:flex-row md:items-center justify-center px-4 md:px-8 gap-4 bg-white shadow-xl">
+            <div className="hero-flex-div flex flex-col md:flex-row md:items-center justify-center px-4 md:px-8 gap-4 bg-white ">
                 <div className="hero-img w-full md:w-1/2">
                     <img src="./taskflow-hero.webp" alt="hero image" className="w-full" />
                 </div>
@@ -17,7 +18,7 @@ function Hero() {
                         Enhanced Focus Timer.
                     </p>
                     <div className="flex gap-4 flex-col">
-                        <a href='#' className="flex items-center gap-1 bg-black text-white md:px-6 py-2 px-0 rounded-lg  w-3/4 md:w-auto">
+                        {/* <a href='#' className="flex items-center gap-1 bg-black text-white md:px-6 py-2 px-0 rounded-lg  w-3/4 md:w-auto">
                             <div className="apple-logo">
                                 <FaApple className=' text-3xl md:text-4xl' />
                             </div>
@@ -25,8 +26,9 @@ function Hero() {
                                 <p className='text-xs'>Download on the</p>
                                 <p className='text-2xl'>App Store</p>
                             </div>
-                        </a>
-                        <a href='#' className="bg-[#4A4A4A] text-white px-8 py-3 rounded-lg flex items-center gap-2 w-full md:w-auto"> <b><FaYoutube /></b> Introduction Video</a>
+                        </a> */}
+                        <AppStoreBtn />
+                        <a href='#' className="bg-[#4A4A4A] text-white px-8 py-3 rounded-lg flex items-center gap-2 w-full md:w-auto"> <b><FaYoutube className='text-xl text-white'/></b> Introduction Video</a>
                     </div>
                 </div>
             </div>

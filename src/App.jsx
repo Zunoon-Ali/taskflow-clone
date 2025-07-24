@@ -17,6 +17,8 @@ import Spacer from './components/Spacer';
 import DarkMode from './components/DarkMode';
 import Roadmap from './components/Roadmap';
 import Testimonials from './components/Testimonials';
+import TaskDone from './components/TaskDone';
+import Footer from './components/Footer';
 
 function App() {
     useEffect(() => {
@@ -41,6 +43,8 @@ function App() {
         <Spacer gradient="bg-gradient-to-b from-black via-gray-900 to-gray-100" />
         <Roadmap />
         <Testimonials />
+        <TaskDone />
+        <Footer />
       </main>
     </div>
   );
