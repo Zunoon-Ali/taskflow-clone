@@ -39,7 +39,7 @@ function Testimonials() {
           {
             cards.map((card, index) => {
               return (
-                <div className="relative card w-full md:w-[300px] md:h-[450px] h-auto  bg-white shadow-xl text-black px-2 md:px-5 py-10 leading-7 overflow-hidden rounded-3xl" key={index}>
+                <div className="relative card w-full md:w-[300px] md:h-[450px] h-auto  bg-white shadow-xl text-black px-4 md:px-5 py-10 leading-7 overflow-hidden rounded-xl" key={index}>
                   <div className="card-title text-xl text-gray-800 font-bold mt-3 mb-10">{card.title}</div>
 
                   {/* ⭐ Star Rating */}

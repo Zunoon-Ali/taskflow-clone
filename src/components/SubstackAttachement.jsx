@@ -9,9 +9,10 @@ import ColHeadImg from './ColHeadImg';
 function SubstackAttachement() {
   return (
     <div>
-      <section id='substackAttachment' className='my-3 md:my-12 min-h-screen w-full overflow-x-hidden  md:py-12 py-3'>
+      <section id='substackAttachment' className='my-3 md:my-8 min-h-screen w-[95VW] overflow-x-hidden  md:py-6 py-3 mx-auto'>
         <div className="substackAttachmentContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl">
-          <ColHeadImg className="leftSubstackAttachment min-h-[400px] flex flex-col items-center justify-between w-full md:2/3 bg-white shadow-lgrounded-xl my-5 overflow-hidden flex-grow h-full" imageSrc="./Subtasks-and-Attachments-iPhone.webp" heading="Subtasks and Attachments" Icon={ImAttachment} />
+          <ColHeadImg className="leftSubstackAttachment  flex flex-col items-center justify-between w-full md:3/4 bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full" imageSrc="./Subtasks-and-Attachments-iPhone.webp" heading="Subtasks and Attachments" Icon={ImAttachment} imgClassName={"md:w-[20vw] w-2/3"} />
+
           <div className="rightDragDrop min-h-[400px] flex flex-col items-center justify-between w-full md:w-1/2 bg-white shadow-lg shadow-gray-400 rounded-xl my-5" >
             <div className="dragDrop mt-4 mb-5">
               <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mt-6 mb-10 leading-tight flex items-center ">

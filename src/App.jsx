@@ -1,4 +1,4 @@
-import React , { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,10 +19,11 @@ import Roadmap from './components/Roadmap';
 import Testimonials from './components/Testimonials';
 import TaskDone from './components/TaskDone';
 import Footer from './components/Footer';
+import UpArrow from './components/UpArrow';
 
 
 function App() {
-    useEffect(() => {
+  useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
   return (
@@ -30,6 +31,7 @@ function App() {
       <Header />
       <main className='flex flex-col'>
         <Hero />
+        <UpArrow />
         <MeetTask />
         <BLBL />
         <TaskflowConcept />
@@ -39,9 +41,9 @@ function App() {
         <SubstackAttachement />
         <AddNotes />
         <TimerEnhanced />
-        <Spacer/>
+        <Spacer />
         <DarkMode />
-        <Spacer rotate={"rotate-180"}/>
+        <Spacer rotate={"rotate-180"} />
         <Roadmap />
         <Testimonials />
         <TaskDone />

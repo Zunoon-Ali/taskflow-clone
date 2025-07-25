@@ -4,7 +4,7 @@ import { FaSpotify } from 'react-icons/fa'
 function BLBL() {
     return (
         <div>
-            <section id="blbl" className='my-3 md:my-12 min-h-screen w-full overflow-x-hidden bg-white shadow-lg shadow-gray-400 md:py-12 py-3'>
+            <section id="blbl" className='my-3 md:my-12 min-h-screen w-[95vw] overflow-x-hidden bg-white shadow-xl shadow-gray-400 md:py-6 py-3 mx-auto'>
                 <div className="blbl-heading flex items-center justify-center gap-4 px-5 md:px-12" data-aos="fade-up">
                     <FaSpotify className="text-blue-500 text-6xl -rotate-90" />
                     <h1 className='text-4xl md:text-6xl font-semibold text-black md:w-auto w-full text-center'>Beautiful <b className='text-blue-500'>List</b> & <b className='text-blue-500'>Board</b> Layouts</h1>

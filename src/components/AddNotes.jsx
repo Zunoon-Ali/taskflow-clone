@@ -8,29 +8,12 @@ function AddNotes() {
         <div>
             <section id="setDueDatesAndPriorities" className='my-3 md:my-12 min-h-screen w-full overflow-x-hidden  md:py-12 py-3'>
                 <div className="addNotesContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl">
-                    <div className="setDueDates flex flex-col items-center justify-between w-full md:w-1/2 bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden" >
-                        <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mt-6 mb-16 leading-tight flex items-center ">
-                            <IoCalendar className="text-4xl md:text-5xl mr-4 bg-blue-600 text-white rounded-full p-2" />
-                            Set Due Dates
-                        </h1>
-                        <img
-                            src=""
-                            alt="Set Due Dates"
-                            className="w-1/2  mb-6"
-                        />
-                    </div>
-                     {/* <ColHeadImg className={"leftSubstackAttachment min-h-[400px] flex flex-col items-center justify-between w-full md:2/3 bg-white shadow-lgrounded-xl my-5 overflow-hidden flex-grow h-full"} imageSrc={'./Set-Due-Dates-iPhone.webp'} heading={"Set Due Dates"} /> */}
-                    <div className="addNotesPriorities flex flex-col items-center justify-between w-full md:w-1/2 bg-white shadow-lg shadow-gray-400 rounded-xl my-5">
-                        <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mt-6 mb-16 leading-tight flex items-center ">
-                            <IoFlagSharp className="text-4xl md:text-5xl mr-4 bg-blue-600 text-white rounded-full p-2" />
-                            Add Notes and Priorities
-                        </h1>
-                        <img
-                            src="./Add-Notes-and-Priorities-iPhone.webp"
-                            alt="Add Notes and Priorities"
-                            className="w-1/2  mb-6"
-                        />
-                    </div>
+                    <ColHeadImg className="setDueDates flex flex-col items-center justify-center w-[82vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full" imageSrc="./Set-Due-Dates-iPhone.webp" heading="Set Due Dates" Icon={IoCalendar} imgClassName={"md:w-[20vw] w-3/4"} />
+
+                    <ColHeadImg className="addNotesPriorities flex flex-col items-center justify-center w-full md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full" imageSrc="./Add-Notes-and-Priorities-iPhone.webp" heading="Add Notes and Priorities" Icon={IoFlagSharp} imgClassName={"md:w-[20vw] w-2/3"} />
+
+
+
                 </div>
             </section>
         </div>

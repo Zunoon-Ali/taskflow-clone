@@ -4,8 +4,8 @@ import AppStoreBtn from './AppStoreBtn';
 
 function Hero() {
     return (
-        <section id="hero" className="my-3 md:my-12 py-3 md:py-12">
-            <div className="hero-flex-div flex flex-col md:flex-row md:items-center justify-center px-4 md:px-8 gap-4 bg-white ">
+        <section id="hero" className="mb-3 md:mb-8 py-3 md:py-6 min-h-screen w-full bg-white   overflow-x-hidden">
+            <div className="hero-flex-div flex flex-col md:flex-row md:items-center justify-center px-4 md:px-8 gap-4  ">
                 <div className="hero-img w-full md:w-1/2">
                     <img src="./taskflow-hero.webp" alt="hero image" className="w-full" />
                 </div>
@@ -28,7 +28,7 @@ function Hero() {
                             </div>
                         </a> */}
                         <AppStoreBtn />
-                        <a href='#' className="bg-[#4A4A4A] text-white px-8 py-3 rounded-lg flex items-center gap-2 w-full md:w-auto"> <b><FaYoutube className='text-xl text-white'/></b> Introduction Video</a>
+                        <a href='#' className="bg-[#4A4A4A] text-white px-8 py-3 rounded-lg flex items-center gap-2 w-full md:w-auto"> <b><FaYoutube className='text-xl text-white' /></b> Introduction Video</a>
                     </div>
                 </div>
             </div>

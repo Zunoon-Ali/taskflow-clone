@@ -5,10 +5,10 @@ function MultipleProjectTask() {
     return (
         <section
             id="multipleProjectTask"
-            className="my-6 md:my-12 min-h-screen w-full overflow-x-hidden px-4 md:px-12"
+            className="my-6 md:my-12 min-h-screen w-[85vw] overflow-x-hidden mx-auto" 
             data-aos="fade-up"
         >
-            <div className="multipleProjectContainer flex flex-col md:flex-row items-center justify-center bg-white rounded-xl w-full shadow-xl py-12 px-6 gap-8">
+            <div className="multipleProjectContainer flex flex-col md:flex-row items-center justify-center bg-white rounded-xl  py-12 gap-8 shadow-xl shadow-gray-400 px-8">
                 <div className="multipleProjectContent flex flex-col items-start md:items-center justify-center md:w-1/2 w-full">
                     <div className="multipleProjectHeading flex items-center gap-4 mb-6">
                         <TbArrowFork className="text-4xl md:text-6xl text-white bg-blue-500 rounded-full p-1 md:p-3" />
@@ -26,7 +26,7 @@ function MultipleProjectTask() {
                 <img
                     src="./Multiple-Projects-iPhone.webp"
                     alt="Multiple project task on iPhone"
-                    className="w-1/2 md:w-auto rounded-lg shadow-md"
+                    className="md:w-1/2 w-3/4 rounded-lg shadow-md"
                 />
             </div>
         </section>

@@ -6,7 +6,7 @@ function MeetTask() {
     <div>
       <section
         id="meetTask"
-        className="min-h-screen w-full overflow-x-hidden my-3 md:my-8 px-5  md:py-8 shadow-lg shadow-gray-400"
+        className="min-h-screen w-[95vw] overflow-x-hidden my-3 md:my-12 px-5 py-3 md:py-8 shadow-xl shadow-gray-400 mx-auto bg-white"
       >
         <div className="meetTask flex flex-col items-center justify-center gap-6">
           <div className="meetTaskHeading flex flex-row items-center justify-center gap-2 min-h-[200px] p-4 w-full mx-auto">

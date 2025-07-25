@@ -7,24 +7,12 @@ html {
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: rgba(230, 230, 230, 0.39);
 }
 
-
-body::before{
-    content:" ";
-    background-color: rgb(223, 222, 222);
-    opacity: 10%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-b{
-    color:blue;
-    font-weight: 600;
+b {
+  color: #007aff;
+  font-weight: 600;
 }
 
 [data-aos] {

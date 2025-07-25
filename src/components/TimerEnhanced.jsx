@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaDotCircle } from "react-icons/fa";
 import { GiSettingsKnobs } from "react-icons/gi";
+import ColHeadImg from './ColHeadImg';
 
 function TimerEnhanced() {
     return (
@@ -17,20 +18,11 @@ function TimerEnhanced() {
                 </div>
 
                 {/* Container */}
-                <div className="timerEnhancedContainer flex flex-col md:flex-row items-start justify-center mx-auto gap-5">
+                <div className="timerEnhancedContainer flex flex-col md:flex-row justify-center mx-auto gap-5">
 
-                    {/* Left Side */}
-                    <div className="leftDiv flex flex-col items-center gap-5 w-full md:w-[35vw]" data-aos="fade-right">
-                        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 flex items-center mb-10">
-                            <FaDotCircle className="text-4xl md:text-5xl mr-4 bg-blue-700 text-white rounded-full border-3 border-blue-700" />
-                            Simple. Focus.
-                        </h1>
-                        <img
-                            src="./Focus-Timer-iPhone.webp"
-                            alt="Focus Timer"
-                            className="w-1/2 rounded-lg mt-12"
-                        />
-                    </div>
+
+
+                    <ColHeadImg className="leftDiv flex flex-col items-center justify-center w-full md:w-[35vw] mb-0" imageSrc="./Focus-Timer-iPhone.webp" heading="Simple. Focus." Icon={FaDotCircle} imgClassName={"w-2/3"} />
 
                     {/* Right Side */}
                     <div className="rightDiv flex flex-col items-start w-full md:w-[35vw] px-3 md:px-5 my-16 md:my-0" data-aos="fade-left">
