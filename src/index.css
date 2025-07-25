@@ -24,6 +24,7 @@ body::before{
 
 b{
     color:blue;
+    font-weight: 600;
 }
 
 [data-aos] {

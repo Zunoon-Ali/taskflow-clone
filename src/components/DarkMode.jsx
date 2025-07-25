@@ -1,34 +1,39 @@
-import React from 'react'
+import React from 'react';
 
 function DarkMode() {
     return (
-        <div>
-            <section id="darkMode" className='min-h-screen w-full overflow-x-hidden px-5  bg-black shadow-gray-400'>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-3/4 mx-auto">
+        <section id="darkMode" className='relative min-h-[60vh] w-full bg-black px-4 md:px-12 py-10 shadow-xl shadow-black -top-2'>
 
-                    <div className="Div1 flex flex-col-reverse items-center justify-center md:flex-col">
-                        <img src="./Dark-Mode-iPad.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6 hidden md:block" />
-                        <img src="./Dark-Mode-iPhone-1.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6" />
-                        <h1 className="text-3xl md:text-4xl font-semibold text-white mt-6 mb-16 text-center md:w-full">
-                            <span className="text-orange-500 block">Dark Mode.</span>
-                            <span className="block">Turn Lights off.</span>
-                        </h1>
+            <h1 className="text-4xl md:text-5xl font-semibold text-white text-center md:text-start md:absolute md:bottom-35 md:left-30 mb-12">
+                <span className="text-orange-500 block">Dark Mode.</span>
+                <span className="block">Turn Lights off.</span>
+            </h1>
 
-                    </div>
-                    <div className="Div2">
-                        <img src="./Dark-Mode-iPhone-2.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6" />
-                        <img src="./Dark-Mode-iPhone-3.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6 " />
-                    </div>
-                    <div className="Div3 hidden md:block">
-                        <img src="./Dark-Mode-iPhone-4.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6" />
-                        <img src="./Dark-Mode-iPhone-5.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6" />
-                        <img src="./Dark-Mode-iPhone-6.webp" alt=" Dark Mode" className="w-full md:w-1/2  mb-6" />
-                    </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-screen-xl mx-auto px-10">
+
+                {/* Column 1 */}
+                <div className="flex flex-col-reverse md:flex-col items-center justify-center gap-4">
+                    <img src="./Dark-Mode-iPad.webp" alt="Dark Mode" className="w-full md:w-90 hidden md:block" />
+                    <img src="./Dark-Mode-iPhone-1.webp" alt="Dark Mode" className="w-3/4" />
+
                 </div>
 
-            </section>
-        </div>
-    )
+                {/* Column 2 */}
+                <div className="flex flex-col items-center justify-center gap-4">
+                    <img src="./Dark-Mode-iPhone-2.webp" alt="Dark Mode" className="w-3/4" />
+                    <img src="./Dark-Mode-iPhone-3.webp" alt="Dark Mode" className="w-3/4" />
+                </div>
+
+                {/* Column 3 */}
+                <div className="hidden md:flex flex-col items-center justify-center gap-4">
+                    <img src="./Dark-Mode-iPhone-4.webp" alt="Dark Mode" className="w-3/4" />
+                    <img src="./Dark-Mode-iPhone-5.webp" alt="Dark Mode" className="w-3/4" />
+                    <img src="./Dark-Mode-iPhone-6.webp" alt="Dark Mode" className="w-3/4" />
+                </div>
+
+            </div>
+        </section>
+    );
 }
 
-export default DarkMode
+export default DarkMode;

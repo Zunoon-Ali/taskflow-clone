@@ -20,6 +20,7 @@ import Testimonials from './components/Testimonials';
 import TaskDone from './components/TaskDone';
 import Footer from './components/Footer';
 
+
 function App() {
     useEffect(() => {
     AOS.init({ duration: 800 });
@@ -40,7 +41,7 @@ function App() {
         <TimerEnhanced />
         <Spacer/>
         <DarkMode />
-        <Spacer gradient="bg-gradient-to-b from-black via-gray-900 to-gray-100" />
+        <Spacer rotate={"rotate-180"}/>
         <Roadmap />
         <Testimonials />
         <TaskDone />

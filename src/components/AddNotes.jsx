@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoCalendar } from "react-icons/io5";
 import { IoFlagSharp } from "react-icons/io5";
+import ColHeadImg from './ColHeadImg';
 
 function AddNotes() {
     return (
@@ -13,11 +14,12 @@ function AddNotes() {
                             Set Due Dates
                         </h1>
                         <img
-                            src="./Set-Due-Dates-iPhone.webp"
+                            src=""
                             alt="Set Due Dates"
                             className="w-1/2  mb-6"
                         />
                     </div>
+                     {/* <ColHeadImg className={"leftSubstackAttachment min-h-[400px] flex flex-col items-center justify-between w-full md:2/3 bg-white shadow-lgrounded-xl my-5 overflow-hidden flex-grow h-full"} imageSrc={'./Set-Due-Dates-iPhone.webp'} heading={"Set Due Dates"} /> */}
                     <div className="addNotesPriorities flex flex-col items-center justify-between w-full md:w-1/2 bg-white shadow-lg shadow-gray-400 rounded-xl my-5">
                         <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mt-6 mb-16 leading-tight flex items-center ">
                             <IoFlagSharp className="text-4xl md:text-5xl mr-4 bg-blue-600 text-white rounded-full p-2" />

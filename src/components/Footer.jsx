@@ -12,15 +12,15 @@ function Footer() {
     return (
         <section
             id="footer"
-            className="mt-3 md:mt-12 min-h-20 w-full overflow-x-hidden bg-gray-100 md:py-12 py-3"
+            className="min-h-35 w-full overflow-x-hidden bg-gray-100 md:py-12 py-3"
         >
-            <footer className="footer flex flex-col items-center gap-6">
+            <footer className="footer flex flex-col items-center gap-4 md:px-12">
                 {/* Link Group */}
-                <div className="links flex flex-wrap justify-center gap-4">
+                <div className="links flex flex-wrap items-center justify-center gap-8 mt-2 md:w-full w-auto px-12">
                     {footer.map((item, index) => (
                         <a
                             href={item.link}
-                            className="text-blue-600 underline md:text-lg text-sm"
+                            className="text-blue-600 md:text-xl text-lg font-medium"
                             key={index}
                         >
                             {item.text}
@@ -29,7 +29,7 @@ function Footer() {
                 </div>
 
                 {/* Footer Text */}
-                <p className="text-gray-600 text-center text-sm">
+                <p className="text-gray-600 text-center text-xl mt-2 font-medium">
                     &copy; 2023 Task Flow | Made with ♡ in Canada
                 </p>
             </footer>
