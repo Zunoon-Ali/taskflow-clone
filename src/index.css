@@ -1,20 +1,35 @@
 @import "tailwindcss";
 
-html {
-  overflow-y: scroll;
-}
-
+/* Ensure no horizontal scrollbars */
+html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+/* Let the browser manage vertical scroll naturally */
+html,
+body {
+  overflow-y: auto;
+}
+
+/* Prevent AOS animations from causing scroll overflow */
+section {
+  overflow: hidden;
+}
+
+/* Background color */
+body {
   background-color: rgba(230, 230, 230, 0.39);
 }
 
+/* Typography highlight */
 b {
   color: #007aff;
   font-weight: 600;
 }
 
+/* AOS Animation Tweaks */
 [data-aos] {
   opacity: 0;
   transition-property: opacity, transform;
@@ -22,4 +37,8 @@ b {
 
 [data-aos].aos-animate {
   opacity: 1;
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(10px); /* smoother animation, avoids pushing layout */
 }

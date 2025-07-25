@@ -7,10 +7,18 @@ function ManageDueDates() {
             <section
                 id="manageDueDates"
                 className="my-3 md:my-8 min-h-screen w-full overflow-x-hidden md:py-8 py-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
             >
-                <div className="manageDueDatesContainer  flex flex-col gap-4 bg-white w-[90%] md:w-3/4 mx-auto shadow-xl shadow-gray-400  px-4 py-4 rounded-2xl">
-
-                    <div className="dueDateHeading flex flex-col gap-4 w-[90%] md:w-3/4 mx-auto md:px-5 md:py-8 rounded-xl">
+                <div
+                    className="manageDueDatesContainer flex flex-col gap-4 bg-white w-[90%] md:w-3/4 mx-auto shadow-xl shadow-gray-400 px-4 py-4 rounded-2xl"
+                >
+                    <div
+                        className="dueDateHeading flex flex-col gap-4 w-[90%] md:w-3/4 mx-auto md:px-5 md:py-8 rounded-xl"
+                        data-aos="fade-up"
+                        data-aos-delay="0"
+                        data-aos-duration="1000"
+                    >
                         <div className="flex items-center gap-4">
                             <FaInbox className="text-4xl md:text-6xl text-white bg-blue-500 rounded-full p-1 md:p-3" />
                             <h1 className="text-3xl md:text-5xl font-medium text-gray-800">
@@ -22,8 +30,15 @@ function ManageDueDates() {
                         </p>
                     </div>
 
-                    <div className="manageDueDateContent flex flex-col md:flex-row justify-between gap-6 w-[90%] md:w-3/4 mx-auto mt-12">
-                        <div className="text flex flex-col items-start text-lg md:text-xl text-gray-800 md:w-1/2">
+                    <div
+                        className="manageDueDateContent flex flex-col md:flex-row justify-between gap-6 w-[90%] md:w-3/4 mx-auto mt-12"
+                    >
+                        <div
+                            className="text flex flex-col items-start text-lg md:text-xl text-gray-800 md:w-1/2"
+                            data-aos="fade-right"
+                            data-aos-delay="200"
+                            data-aos-duration="1000"
+                        >
                             <p className='text-2xl text-gray-700 leading-10 mt-5 mb-24'>
                                 My Task Flow <b className="text-blue-500">time-based sections</b> are perfect
                                 for dealing with long-term tasks without using due dates.
@@ -33,14 +48,17 @@ function ManageDueDates() {
                                 done for today, move it to the <b className="text-blue-500">Upcoming</b> section.
                             </p>
                         </div>
+
                         <img
                             src="./Manage-Due-Dates-Images.webp"
                             alt="Task Flow Manage Due Dates"
-                            className="w-full md:w-1/2 rounded-lg "
+                            className="w-full md:w-1/2 rounded-lg"
+                            data-aos="fade-left"
+                            data-aos-delay="400"
+                            data-aos-duration="1000"
                         />
                     </div>
                 </div>
-
             </section>
         </div>
     );

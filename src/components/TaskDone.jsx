@@ -5,13 +5,29 @@ import { FaCreativeCommonsPdAlt } from "react-icons/fa";
 
 function TaskDone() {
     return (
-        <section id="taskDone" className=' relative mt-3 md:mt-6 mb-2 min-h-[95vh] w-full overflow-x-hidden bg-white md:pt-6 pt-3 pb-2 '>
-            <div className="TaskDoneContainer flex flex-col items-center justify-center gap-5 md:mb-24 mb-6">
+        <section
+            id="taskDone"
+            className='relative mt-3 md:mt-6 mb-2 min-h-[95vh] w-full overflow-x-hidden bg-white md:pt-6 pt-3 pb-2'
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+        >
+            <div
+                className="TaskDoneContainer flex flex-col items-center justify-center gap-5 md:mb-24 mb-6"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+            >
                 <h1 className="text-5xl md:text-6xl text-gray-800 mt-6 mb-8 md:mb-16 leading-tight flex items-center font-semibold">
                     Get Tasks&nbsp;<b>Done</b>
                 </h1>
 
-                <div className="getTaskDoneContent flex flex-col md:flex-row items-start md:items-center justify-evenly md:mx-auto gap-4 md:gap-6 w-full md:w-1/2 px-2 pl-12">
+                <div
+                    className="getTaskDoneContent flex flex-col md:flex-row items-start md:items-center justify-evenly md:mx-auto gap-4 md:gap-6 w-full md:w-1/2 px-2 pl-12"
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="900"
+                >
                     <h2 className='text-xl md:text-4xl text-gray-800 leading-wide pl-2 font-medium'>
                         Get <b>Task Flow</b>.<br />It’s free.
                     </h2>
@@ -19,8 +35,13 @@ function TaskDone() {
                 </div>
             </div>
 
-            <div className="btn w-full">
-                <button className='absolute -bottom-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center gap-3 text-orange-500 border border-orange-500 px-4 py-1 rounded-md cursor-pointer'>
+            <div
+                className="btn w-full"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="900"
+            >
+                <button className='absolute top-40 md:top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3 text-orange-500 border border-orange-500 px-4 py-1 rounded-md cursor-pointer'>
                     <span>
                         <FaCreativeCommonsPdAlt className='text-xl md:text-3xl text-white bg-orange-700 rounded-full p-1' />
                     </span>

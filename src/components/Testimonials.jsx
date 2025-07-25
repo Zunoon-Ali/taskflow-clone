@@ -2,7 +2,6 @@ import React from 'react'
 import { BiHeartCircle } from "react-icons/bi";
 import Flag from 'react-world-flags';
 
-
 const cards = [
   {
     title: "Perfect To Do List for me!",
@@ -26,44 +25,59 @@ const cards = [
     countryCode: "DE"
   },
 ]
+
 function Testimonials() {
   return (
     <div>
       <section id="Testimonials" className='min-h-screen w-full overflow-x-hidden px-5 my-7 md:my-12 flex flex-col justify-center items-center bg-gray-100 py-12'>
-        <h1 className='text-4xl md:text-6xl font-semibold mt-6 mb-16 text-center md:w-full flex items-center justify-center'>
+
+        {/* Section Heading */}
+        <h1
+          className='text-4xl md:text-6xl font-semibold mt-6 mb-16 text-center md:w-full flex items-center justify-center'
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           <BiHeartCircle className="text-4xl md:text-6xl mr-4 bg-blue-600 text-white rounded-full p-2" />
           Loved Around the World
         </h1>
 
+        {/* Testimonial Cards */}
         <div className="testimonialsContainer flex items-center flex-col md:flex-row justify-between gap-12">
           {
-            cards.map((card, index) => {
-              return (
-                <div className="relative card w-full md:w-[300px] md:h-[450px] h-auto  bg-white shadow-xl text-black px-4 md:px-5 py-10 leading-7 overflow-hidden rounded-xl" key={index}>
-                  <div className="card-title text-xl text-gray-800 font-bold mt-3 mb-10">{card.title}</div>
-
-                  {/* ⭐ Star Rating */}
-                  <div className="card-review my-6 text-[orange] text-2xl md:text-3xl  ">
-                    {
-                      Array.from({ length: 5 }, (_, i) => (
-                        <span key={i} className='font-extrabold rounded-lg'>
-                          {i < card.review ? '★' : '☆'}
-                        </span>
-                      ))
-                    }
-                  </div>
-
-                  <div className="card-text text-md text-gray-500 my-10 font-semibold overflow-ellipsis">{card.text}</div>
-
-                  <div className="card-detail mt-2 absolute bottom-6 md:bottom-3 right-25 md:right-6 text-lg text-gray-400">
-                    <span className="card-author flex items-center justify-center gap-2">{card.author}
-                      <Flag code={card.countryCode} style={{ width: '24px', height: '16px' }} />
-                    </span>
-
-                  </div>
+            cards.map((card, index) => (
+              <div
+                className="relative card w-full md:w-[300px] md:h-[450px] h-auto bg-white shadow-xl text-black px-4 md:px-5 py-10 leading-7 overflow-hidden rounded-xl"
+                key={index}
+                data-aos="zoom-in-up"
+                data-aos-delay={index * 200}
+                data-aos-duration="1000"
+              >
+                <div className="card-title text-xl text-gray-800 font-bold mt-3 mb-10">
+                  {card.title}
                 </div>
-              )
-            })
+
+                {/* Star Rating */}
+                <div className="card-review my-6 text-[orange] text-2xl md:text-3xl">
+                  {Array.from({ length: 5 }, (_, i) => (
+                    <span key={i} className='font-extrabold rounded-lg'>
+                      {i < card.review ? '★' : '☆'}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="card-text text-md text-gray-500 my-10 font-semibold overflow-ellipsis">
+                  {card.text}
+                </div>
+
+                {/* Author + Flag */}
+                <div className="card-detail mt-2 absolute bottom-6 md:bottom-3 right-6 text-lg text-gray-400">
+                  <span className="card-author flex items-center gap-2">
+                    {card.author}
+                    <Flag code={card.countryCode} style={{ width: '24px', height: '16px' }} />
+                  </span>
+                </div>
+              </div>
+            ))
           }
         </div>
       </section>
