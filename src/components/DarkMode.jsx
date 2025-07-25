@@ -26,8 +26,8 @@ function DarkMode() {
                     data-aos-delay="200"
                     data-aos-duration="1000"
                 >
-                    <img src="./Dark-Mode-iPad.webp" alt="Dark Mode" className="w-full md:w-90 hidden md:block" />
-                    <img src="./Dark-Mode-iPhone-1.webp" alt="Dark Mode" className="w-3/4" />
+                    <img src="./Dark-Mode-iPad.webp" alt="Dark Mode" className="w-full md:w-90 hidden md:block" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-1.webp" alt="Dark Mode" className="w-3/4" loading="lazy" />
                 </div>
 
                 {/* Column 2 */}
@@ -37,8 +37,8 @@ function DarkMode() {
                     data-aos-delay="400"
                     data-aos-duration="1000"
                 >
-                    <img src="./Dark-Mode-iPhone-2.webp" alt="Dark Mode" className="w-3/4" />
-                    <img src="./Dark-Mode-iPhone-3.webp" alt="Dark Mode" className="w-3/4" data-aos="fade-left" />
+                    <img src="./Dark-Mode-iPhone-2.webp" alt="Dark Mode" className="w-3/4" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-3.webp" alt="Dark Mode" className="w-3/4" data-aos="fade-left" loading="lazy" />
                 </div>
 
                 {/* Column 3 */}
@@ -48,9 +48,9 @@ function DarkMode() {
                     data-aos-delay="600"
                     data-aos-duration="1000"
                 >
-                    <img src="./Dark-Mode-iPhone-4.webp" alt="Dark Mode" className="w-3/4" />
-                    <img src="./Dark-Mode-iPhone-5.webp" alt="Dark Mode" className="w-3/4" />
-                    <img src="./Dark-Mode-iPhone-6.webp" alt="Dark Mode" className="w-3/4" />
+                    <img src="./Dark-Mode-iPhone-4.webp" alt="Dark Mode" className="w-3/4" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-5.webp" alt="Dark Mode" className="w-3/4" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-6.webp" alt="Dark Mode" className="w-3/4" loading="lazy" />
                 </div>
 
             </div>

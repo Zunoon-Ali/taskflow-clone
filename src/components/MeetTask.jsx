@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaYoutube } from 'react-icons/fa';
 
 function MeetTask() {
+  const [isIframeLoaded, setIsIframeLoaded] = useState(false);
+
   return (
     <div>
       <section
@@ -20,21 +22,43 @@ function MeetTask() {
           >
             <FaYoutube className="text-4xl md:text-6xl text-gray-500 mt-1" />
             <h1 className="text-4xl md:text-6xl font-semibold">
-              Meet<b className="text-blue-500"> Task Flow</b>
+              Meet <b className="text-blue-500">Task Flow</b>
             </h1>
           </div>
 
-          <iframe
-            src="https://www.youtube.com/embed/y_pYHAaGPLg"
-            frameBorder="0"
-            className="md:w-3/4 w-full aspect-video"
-            title="TaskFlow Introduction"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
+          <div
+            className="md:w-3/4 w-full aspect-video relative"
             data-aos="fade-up"
             data-aos-delay="400"
             data-aos-duration="1000"
-          ></iframe>
+          >
+            {isIframeLoaded ? (
+              <iframe
+                src="https://www.youtube.com/embed/y_pYHAaGPLg?autoplay=1"
+                frameBorder="0"
+                className="w-full h-full"
+                title="TaskFlow Introduction"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            ) : (
+              <div
+                className="relative w-full h-full cursor-pointer group"
+                onClick={() => setIsIframeLoaded(true)}
+              >
+                <img
+                  src="https://img.youtube.com/vi/y_pYHAaGPLg/hqdefault.jpg"
+                  alt="TaskFlow Video Preview"
+                  className="w-2/3 h-full object-cover rounded-md"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center group-hover:scale-105 transition-transform duration-300 ease-in-out rounded-md">
+                  <FaYoutube className="text-white text-6xl" />
+                </div>
+              </div>
+            )}
+          </div>
+
         </div>
       </section>
     </div>

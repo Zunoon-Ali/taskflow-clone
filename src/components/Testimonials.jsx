@@ -1,6 +1,5 @@
 import React from 'react'
 import { BiHeartCircle } from "react-icons/bi";
-import Flag from 'react-world-flags';
 
 const cards = [
   {
@@ -73,7 +72,12 @@ function Testimonials() {
                 <div className="card-detail mt-2 absolute bottom-6 md:bottom-3 right-6 text-lg text-gray-400">
                   <span className="card-author flex items-center gap-2">
                     {card.author}
-                    <Flag code={card.countryCode} style={{ width: '24px', height: '16px' }} />
+                    <img
+                      src={`https://flagcdn.com/24x18/${card.countryCode.toLowerCase()}.png`}
+                      width={24}
+                      height={18}
+                      alt={card.country}
+                    />
                   </span>
                 </div>
               </div>

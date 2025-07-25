@@ -40,7 +40,7 @@ function SubstackAttachement() {
                 <TbDragDrop2 className="text-4xl md:text-5xl mr-4 bg-blue-600 text-white rounded-full p-2" />
                 Drag and Drop
               </h1>
-              <img src="./Drag-and-Drop-iPhone.webp" alt="Drag and Drop" className="w-full md:w-3/4 mb-6" />
+              <img src="./Drag-and-Drop-iPhone.webp" alt="Drag and Drop" className="w-full md:w-3/4 mb-6" loading="lazy" />
             </div>
 
             <div className="swipAction mb-5" data-aos="zoom-in-up" data-aos-delay="800" data-aos-duration="800">
@@ -48,7 +48,7 @@ function SubstackAttachement() {
                 <FaExchangeAlt className="text-4xl md:text-5xl mr-4 bg-blue-600 text-white rounded-full p-2" />
                 Swipe actions
               </h1>
-              <img src="./Swipe-actions-iPhone.webp" alt="Swipe actions" className="w-full md:w-3/4" />
+              <img src="./Swipe-actions-iPhone.webp" alt="Swipe actions" className="w-full md:w-3/4" loading="lazy" />
             </div>
           </div>
 

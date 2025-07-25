@@ -68,6 +68,7 @@ function TimerEnhanced() {
                                 src="./Focus-Timer-Flexible-iPhone.webp"
                                 alt="Focus Timer Flexible"
                                 className="w-2/3 rounded-lg"
+                                loading="lazy"
                             />
                         </div>
                     </div>

@@ -56,6 +56,7 @@ function ManageDueDates() {
                             data-aos="fade-left"
                             data-aos-delay="400"
                             data-aos-duration="1000"
+                            loading="lazy"
                         />
                     </div>
                 </div>

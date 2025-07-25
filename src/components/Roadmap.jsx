@@ -40,6 +40,7 @@ function Roadmap() {
                         data-aos="zoom-in"
                         data-aos-delay="400"
                         data-aos-duration="1000"
+                        loading="lazy"
                     />
 
                     {/* Thank You Message */}

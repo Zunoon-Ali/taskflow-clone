@@ -17,7 +17,7 @@ function Hero() {
                     data-aos-delay="200"
                     data-aos-duration="1200"
                 >
-                    <img src="./taskflow-hero.webp" alt="hero image" className="w-full" />
+                    <img src="./taskflow-hero.webp" alt="hero image" className="w-full" loading="lazy" />
                 </div>
 
                 <div

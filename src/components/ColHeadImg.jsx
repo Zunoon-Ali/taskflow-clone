@@ -14,6 +14,7 @@ function ColHeadImg({ className, imageSrc, heading, Icon ,imgClassName }) {
           src={imageSrc}
           alt={heading}
           className={`mb-6 ${imgClassName}`}
+          loading="lazy"
         />
       </div>
     </div>
