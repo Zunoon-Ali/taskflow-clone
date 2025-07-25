@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 import Header from "./components/header"
 import Hero from "./components/hero"
@@ -20,12 +19,8 @@ import Testimonials from './components/Testimonials';
 import TaskDone from './components/TaskDone';
 import Footer from './components/Footer';
 import UpArrow from './components/UpArrow';
-
-
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 800 });
-  }, []);
+  
   return (
     <div className="w-full min-h-screen overflow-x-hidden">
       <Header />

@@ -2,7 +2,6 @@ import React from 'react'
 import { ImAttachment } from 'react-icons/im'
 import { TbDragDrop2 } from 'react-icons/tb'
 import { FaExchangeAlt } from 'react-icons/fa';
-import { TbArrowFork } from 'react-icons/tb';
 import ColHeadImg from './ColHeadImg';
 
 

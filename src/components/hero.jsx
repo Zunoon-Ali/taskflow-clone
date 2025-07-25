@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaApple, FaYoutube } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
 import AppStoreBtn from './AppStoreBtn';
 
 function Hero() {

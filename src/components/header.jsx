@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { HiMenu } from 'react-icons/hi';        // Heroicons
-import { FaBars } from 'react-icons/fa';        // FontAwesome
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 function Header() {
