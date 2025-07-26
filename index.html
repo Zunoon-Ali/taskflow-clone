@@ -2,41 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/task-flow-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- ✅ SEO Meta Tags -->
+    <meta name="description" content="TaskFlow - A Task Management UI Clone using React and Tailwind CSS" />
+    <meta name="keywords" content="TaskFlow, Task Management, React, Tailwind CSS, Productivity" />
+    <meta name="author" content="Zunoon Ali" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ✅ Title -->
     <title>TaskFlow - Task Management UI Clone</title>
 
-    <meta
-      name="description"
-      content="TaskFlow is a modern and intuitive task management UI clone built with React and Tailwind CSS. Manage your productivity efficiently with sleek UI animations and features."
-    />
+    <!-- ✅ Favicon -->
+    <link rel="icon" type="image/png" href="/faviconTaskFLow.png" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://yourdomain.com" />
+    <!-- ✅ Canonical and Hreflang -->
+    <link rel="canonical" href="https://taskflow-clone.netlify.app/" />
+    <link rel="alternate" hreflang="en" href="https://taskflow-clone.netlify.app/" />
+
+    <!-- ✅ Open Graph -->
     <meta property="og:title" content="TaskFlow - Task Management UI Clone" />
-    <meta
-      property="og:description"
-      content="A responsive and interactive task management UI built with React, Tailwind CSS, and animation effects."
-    />
+    <meta property="og:description" content="Clean, responsive task management UI built with React & Tailwind CSS." />
     <meta property="og:image" content="/task-flow-logo.png" />
+    <meta property="og:url" content="https://taskflow-clone.netlify.app/" />
+    <meta property="og:type" content="website" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://yourdomain.com" />
-    <meta name="twitter:title" content="TaskFlow - Task Management UI Clone" />
-    <meta
-      name="twitter:description"
-      content="TaskFlow is a beautiful and functional React + Tailwind task UI clone."
-    />
-    <meta name="twitter:image" content="/task-flow-logo.png" />
-
+    <!-- ✅ Theme -->
     <meta name="theme-color" content="#ffffff" />
 
+    <!-- ✅ Manifest -->
     <link rel="manifest" href="/manifest.webmanifest" />
-
-    <script type="module" src="/src/main.jsx"></script>
   </head>
-  <body class="bg-white text-gray-900 antialiased">
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Scripts injected by Vite -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
