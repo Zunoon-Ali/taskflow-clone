@@ -22,16 +22,16 @@ function TaskflowConcept() {
                 </div>
 
                 <div
-                    className="narrowTaskflow my-12 bg-white w-full mx-auto shadow-xl shadow-gray-400 rounded-xl flex flex-col md:flex-row items-center justify-center gap-4 px-3 md:py-8"
+                    className="narrowTaskflow min-h-auto my-12 bg-white w-full mx-auto shadow-xl shadow-gray-400 rounded-xl flex flex-col md:flex-row items-center justify-center gap-4 px-3 md:py-8 py-5"
                 >
                     <div
-                        className="flex flex-col items-center justify-center gap-4"
+                        className="flex flex-col items-center justify-center gap-4 mb-5"
                         data-aos="fade-right"
                         data-aos-delay="200"
                         data-aos-duration="1000"
                     >
-                        <div className="taskflowNarrowHeading flex items-center justify-center gap-4 px-6">
-                            <TbArrowFork className='text-7xl text-white bg-blue-500 rounded-full p-2 font-bold transform rotate-180' />
+                        <div className="taskflowNarrowHeading flex items-center justify-evenly gap-4 px-2 md:px-6">
+                            <TbArrowFork className='text-6xl md:text-7xl text-white bg-blue-500 rounded-full font-extrabold p-2' />
                             <h1 className='text-4xl md:text-5xl font-semibold text-gray-800'>
                                 <b className='text-blue-500'>Narrow</b> your Task Flow
                             </h1>

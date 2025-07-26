@@ -7,15 +7,15 @@ function Roadmap() {
         <div>
             <section
                 id="roadmap"
-                className='min-h-screen w-full overflow-x-hidden px-2 my-12 md:my-12 flex flex-col justify-center items-center'
+                className='min-h-screen w-full overflow-x-hidden px-2 my-6 md:my-12 flex flex-col justify-center items-center'
             >
                 {/* Heading */}
                 <h1
-                    className='text-5xl md:text-6xl font-semibold text-center text-gray-800 flex'
+                    className='text-4xl  md:text-6xl font-semibold text-center text-gray-800 flex'
                     data-aos="fade-up"
                     data-aos-duration="800"
                 >
-                    <CiCirclePlus className='text-6xl md:text-7xl bg-blue-700 text-white rounded-full mr-5' />
+                    <CiCirclePlus className='text-5xl md:text-7xl bg-blue-700 text-white rounded-full mr-1 md:mr-5 ' />
                     Roadmap
                 </h1>
 
@@ -36,7 +36,7 @@ function Roadmap() {
                     <img
                         src="./Roadmap.svg"
                         alt=" Roadmap"
-                        className='w-auto md:w-3/4 my-10'
+                        className='w-auto md:w-3/4 my-16'
                         data-aos="zoom-in"
                         data-aos-delay="400"
                         data-aos-duration="1000"
@@ -45,7 +45,7 @@ function Roadmap() {
 
                     {/* Thank You Message */}
                     <p
-                        className='text-center lead text-xl md:text-2xl text-gray-800 md:mt-8 mb-6 mt-6 tracking-wide px-2 md:px-24 md:text-center'
+                        className='text-center lead text-xl md:text-2xl text-gray-800 md:mt-8 mb-6 mt-6 tracking-wide px-2 md:px-24 md:text-center fonr-medium'
                         data-aos="fade-up"
                         data-aos-delay="600"
                         data-aos-duration="800"
@@ -61,7 +61,7 @@ function Roadmap() {
                         data-aos-duration="800"
                     >
                         Stay Tuned
-                        <FaTwitter className='text-4xl md:text-6xl text-gray-700 bg-gray-200 rounded-full p-2 md:p-4'/>
+                        <FaTwitter className='text-5xl md:text-6xl text-gray-700 bg-gray-200 rounded-full p-2 md:p-4'/>
                     </h2>
 
                 </div>

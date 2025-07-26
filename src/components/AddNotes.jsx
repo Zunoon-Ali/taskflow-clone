@@ -15,7 +15,7 @@ function AddNotes() {
                 <div className="addNotesContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl">
 
                     <div
-                        className="setDueDates flex flex-col items-center justify-center w-[90vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full"
+                        className="setDueDates flex flex-wrap flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full"
                         data-aos="fade-right"
                         data-aos-delay="200"
                         data-aos-duration="1000"
@@ -29,7 +29,7 @@ function AddNotes() {
                     </div>
 
                     <div
-                        className="addNotesPriorities flex flex-col items-center justify-center w-[90vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full"
+                        className="addNotesPriorities flex flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full"
                         data-aos="fade-left"
                         data-aos-delay="400"
                         data-aos-duration="1000"
@@ -38,7 +38,7 @@ function AddNotes() {
                             imageSrc="./Add-Notes-and-Priorities-iPhone.webp"
                             heading="Add Notes and Priorities"
                             Icon={IoFlagSharp}
-                            imgClassName={"md:w-[20vw] w-2/3"}
+                            imgClassName={"md:w-[20vw] w-full"}
                         />
                     </div>
 

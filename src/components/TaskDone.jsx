@@ -13,25 +13,25 @@ function TaskDone() {
             data-aos-duration="1000"
         >
             <div
-                className="TaskDoneContainer flex flex-col items-center justify-center gap-5 md:mb-24 mb-6"
+                className="TaskDoneContainer flex flex-col items-center justify-center gap-2 md:gap-5 md:mb-24 mb-6"
                 data-aos="zoom-in"
                 data-aos-delay="200"
                 data-aos-duration="1000"
             >
-                <h1 className="text-5xl md:text-6xl text-gray-800 mt-6 mb-8 md:mb-16 leading-tight flex items-center font-semibold">
-                    Get Tasks&nbsp;<b>Done</b>
+                <h1 className="text-4xl md:text-6xl text-gray-800 mt-6 mb-8 md:mb-16 flex items-center justify-center font-medium ">
+                    Get Tasks&nbsp;<b> Done</b>
                 </h1>
 
                 <div
-                    className="getTaskDoneContent flex flex-col md:flex-row items-start md:items-center justify-evenly md:mx-auto gap-4 md:gap-6 w-full md:w-1/2 px-2 pl-12"
+                    className="getTaskDoneContent flex flex-col flex-wrap md:flex-row items-start md:items-center justify-evenly md:mx-auto gap-4 md:gap-6 w-full md:w-1/2 px-2 pl-12"
                     data-aos="fade-left"
                     data-aos-delay="300"
                     data-aos-duration="900"
                 >
-                    <h2 className='text-xl md:text-4xl text-gray-800 leading-wide pl-2 font-medium'>
+                    <h2 className='text-2xl md:text-4xl text-gray-800  md:pl-2 font-medium'>
                         Get <b>Task Flow</b>.<br />It’s free.
                     </h2>
-                    <AppStoreBtn className='w-full md:w-auto px-3' />
+                    <AppStoreBtn className='w-full md:w-auto px-3 my-8 md:my-0' />
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ function TaskDone() {
                 data-aos-delay="400"
                 data-aos-duration="900"
             >
-                <button className='absolute top-40 md:top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3 text-orange-500 border border-orange-500 px-4 py-1 rounded-md cursor-pointer'>
+                <button className='absolute top-40 md:top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3 text-orange-500 border border-orange-500 px-4 py-1 rounded-md cursor-pointer md:w-auto w-[220px]'>
                     <span>
                         <FaCreativeCommonsPdAlt className='text-xl md:text-3xl text-white bg-orange-700 rounded-full p-1' />
                     </span>

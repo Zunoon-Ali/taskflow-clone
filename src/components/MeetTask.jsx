@@ -8,26 +8,26 @@ function MeetTask() {
     <div>
       <section
         id="meetTask"
-        className="min-h-screen w-[95vw] overflow-x-hidden my-3 md:my-12 px-5 py-3 md:py-8 shadow-xl shadow-gray-400 mx-auto bg-white"
+        className="min-h-[50vh] md:min-h-screen w-[95vw] overflow-x-hidden my-3 md:my-12 md:px-5 pt-4 pb-6 md:py-12 shadow-xl shadow-gray-400 mx-auto bg-white"
         data-aos="fade-up"
         data-aos-duration="800"
       >
-        <div className="meetTask flex flex-col items-center justify-center gap-6">
+        <div className="meetTask flex flex-col items-center justify-center gap-4">
 
           <div
-            className="meetTaskHeading flex flex-row items-center justify-center gap-2 min-h-[200px] p-4 w-full mx-auto"
+            className="meetTaskHeading flex flex-row items-center justify-center gap-4 md:justify-center md:min-h-[200px] md:px-4 w-full mx-auto px-2"
             data-aos="zoom-in-up"
             data-aos-delay="200"
             data-aos-duration="1000"
           >
-            <FaYoutube className="text-4xl md:text-6xl text-gray-500 mt-1" />
-            <h1 className="text-4xl md:text-6xl font-semibold">
-              Meet <b className="text-blue-500">Task Flow</b>
+            <FaYoutube className="text-6xl text-gray-500 md:mt-1 " />
+            <h1 className="text-3xl md:text-5xl font-medium text-center md:ml-2">
+              Meet&nbsp;<b className="text-blue-500">Task Flow</b>
             </h1>
           </div>
 
           <div
-            className="md:w-3/4 w-full aspect-video relative"
+            className="md:w-3/4 w-full aspect-video relative flex flex-col items-center justify-center mt-5 md:mt-0 px-2"
             data-aos="fade-up"
             data-aos-delay="400"
             data-aos-duration="1000"

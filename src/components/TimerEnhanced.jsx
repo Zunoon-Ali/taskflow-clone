@@ -46,20 +46,20 @@ function TimerEnhanced() {
                         data-aos-duration="1000"
                     >
                         <h1 className="text-3xl md:text-5xl font-semibold text-gray-800 flex items-center mb-8">
-                            <GiSettingsKnobs className="text-4xl md:text-5xl mr-4 bg-blue-700 text-white rounded-full border-2 border-blue-700 p-1 -rotate-90" />
+                            <GiSettingsKnobs className="text-5xl mr-4 bg-blue-700 text-white rounded-full border-2 border-blue-700 p-1 -rotate-90 font-extrabold" />
                             Flexible
                         </h1>
 
-                        <h2 className="mb-4 leading-9 text-gray-800 text-lg md:text-2xl">
+                        <h2 className="mb-4 leading-9 text-gray-800 text-xl md:text-2xl">
                             Need a moment to finish your focus?{" "}
                             <span className="font-bold text-blue-700">Postpone</span> will remind you in a few minutes.
                         </h2>
-                        <h2 className="mb-6 leading-9 text-gray-800 text-lg md:text-2xl">
+                        <h2 className="mb-6 leading-9 text-gray-800 text-xl md:text-2xl">
                             Often forget to get back to work?{" "}
                             <span className="text-orange-600 italic">Strict mode</span> will remind you when your break is over.
                         </h2>
                         <div
-                            className="rightImg flex items-center justify-center w-full my-10 md:my-0 p-7"
+                            className="rightImg flex items-center justify-center w-full md:w-3/4 my-10 md:my-0 px-2 md:px-4"
                             data-aos="zoom-in"
                             data-aos-delay="600"
                             data-aos-duration="1000"
@@ -67,7 +67,7 @@ function TimerEnhanced() {
                             <img
                                 src="./Focus-Timer-Flexible-iPhone.webp"
                                 alt="Focus Timer Flexible"
-                                className="w-2/3 rounded-lg"
+                                className="w-full md:1/2 rounded-lg"
                                 loading="lazy"
                             />
                         </div>

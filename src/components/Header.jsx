@@ -22,7 +22,7 @@ function Header() {
                     <img
                         src="./task-flow-logo.png"
                         alt="Taskflow"
-                        className='w-92 md:w-78 md:mr-40 p-0 text-start'
+                        className='w-50 md:w-78 mr-0 md:mr-40 p-0 text-start'
                         loading="lazy"
                     />
                 </div>

@@ -38,7 +38,7 @@ function Footer() {
 
                 {/* Footer Text */}
                 <p
-                    className="text-gray-600 text-center text-xl mt-2 font-medium"
+                    className="text-gray-600 text-center text-sm md:text-xl mt-2 font-medium"
 
                 >
                     &copy; 2023 Task Flow | Made with ♡ in Canada

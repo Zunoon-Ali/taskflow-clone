@@ -30,7 +30,7 @@ function Hero() {
                         Streamline your Task Flow
                     </h1>
 
-                    <p className="font-semibold md:text-2xl text-xl tracking-wide text-gray-800 leading-14 md:mb-4">
+                    <p className="font-medium md:text-2xl text-xl tracking-wide text-gray-800 leading-10 mb-4">
                         Task Flow concept. <br />
                         Multiple-project tasks. <br />
                         List & Board layouts. <br />

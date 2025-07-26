@@ -28,15 +28,15 @@ const cards = [
 function Testimonials() {
   return (
     <div>
-      <section id="Testimonials" className='min-h-screen w-full overflow-x-hidden px-5 my-7 md:my-12 flex flex-col justify-center items-center bg-gray-100 py-12'>
+      <section id="Testimonials" className='min-h-screen w-full overflow-x-hidden px-2 md:px-5 my-7 md:my-12 flex flex-col justify-center items-center bg-gray-100 py-12'>
 
         {/* Section Heading */}
         <h1
-          className='text-4xl md:text-6xl font-semibold mt-6 mb-16 text-center md:w-full flex items-center justify-center'
+          className='text-4xl md:text-6xl font-medium mt-6 mb-16 text-center md:w-full flex items-center justify-center'
           data-aos="fade-up"
           data-aos-duration="800"
         >
-          <BiHeartCircle className="text-4xl md:text-6xl mr-4 bg-blue-600 text-white rounded-full p-2" />
+          <BiHeartCircle className="text-5xl md:text-6xl mr-2 md:mr-4 bg-red-600 text-white rounded-full p-1" />
           Loved Around the World
         </h1>
 
@@ -45,7 +45,7 @@ function Testimonials() {
           {
             cards.map((card, index) => (
               <div
-                className="relative card w-full md:w-[300px] md:h-[450px] h-auto bg-white shadow-xl text-black px-4 md:px-5 py-10 leading-7 overflow-hidden rounded-xl"
+                className="relative card w-full md:w-[300px] md:h-[450px] h-auto bg-white shadow-xl text-black px-2 md:px-5 py-10 leading-7 overflow-hidden rounded-xl"
                 key={index}
                 data-aos="zoom-in-up"
                 data-aos-delay={index * 200}
@@ -70,7 +70,7 @@ function Testimonials() {
 
                 {/* Author + Flag */}
                 <div className="card-detail mt-2 absolute bottom-6 md:bottom-3 right-6 text-lg text-gray-400">
-                  <span className="card-author flex items-center gap-2">
+                  <span className="card-author flex items-center gap-4">
                     {card.author}
                     <img
                       src={`https://flagcdn.com/24x18/${card.countryCode.toLowerCase()}.png`}

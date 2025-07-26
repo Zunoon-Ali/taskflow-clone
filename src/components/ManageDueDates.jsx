@@ -25,25 +25,25 @@ function ManageDueDates() {
                                 <b> Manage</b> Due Dates
                             </h1>
                         </div>
-                        <p className="text-xl text-gray-700 font-sans">
+                        <p className="text-2xl text-gray-700 font-medium">
                             Stuck with moving due dates for long-term tasks every next day?
                         </p>
                     </div>
 
                     <div
-                        className="manageDueDateContent flex flex-col md:flex-row justify-between gap-6 w-[90%] md:w-3/4 mx-auto mt-12"
+                        className="manageDueDateContent flex flex-col md:flex-row justify-between gap-6 w-[90%] md:w-3/4 mx-auto mt-6 md:mt-10"
                     >
                         <div
-                            className="text flex flex-col items-start text-lg md:text-xl text-gray-800 md:w-1/2"
+                            className="text flex flex-col items-start text-lg md:text-xl text-gray-800 md:w-1/2 font-medium"
                             data-aos="fade-right"
                             data-aos-delay="200"
                             data-aos-duration="1000"
                         >
-                            <p className='text-2xl text-gray-700 leading-10 mt-5 mb-24'>
+                            <p className='text-xl md:text-2xl text-gray-700 leading-8 mt-5 mb-16'>
                                 My Task Flow <b className="text-blue-500">time-based sections</b> are perfect
                                 for dealing with long-term tasks without using due dates.
                             </p>
-                            <p className='text-2xl text-gray-700 leading-10 mb-5'>
+                            <p className='text-xl md:text-2xl text-gray-700 leading-8 mb-5'>
                                 Add a task to the <b className="text-blue-500">Today</b> section. When you’re
                                 done for today, move it to the <b className="text-blue-500">Upcoming</b> section.
                             </p>
