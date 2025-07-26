@@ -25,7 +25,7 @@ function SubstackAttachement() {
               imageSrc="./Subtasks-and-Attachments-iPhone.webp"
               heading="Subtasks and Attachments"
               Icon={ImAttachment}
-              imgClassName={"md:w-[20vw] w-3/4"}
+              imgClassName={"md:w-[20vw] w-full"}
             />
           </div>
 
