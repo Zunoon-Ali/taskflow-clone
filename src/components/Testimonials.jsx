@@ -76,7 +76,7 @@ function Testimonials() {
                       src={`https://flagcdn.com/24x18/${card.countryCode.toLowerCase()}.png`}
                       width={24}
                       height={18}
-                      alt={card.country}
+                      alt={`${card.countryCode} flag`}
                     />
                   </span>
                 </div>
