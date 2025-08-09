@@ -8,7 +8,7 @@ function MeetTask() {
     <div>
       <section
         id="meetTask"
-        className="min-h-[50vh] md:min-h-screen w-[95vw] overflow-x-hidden my-3 md:my-12 md:px-5 pt-4 pb-6 md:py-12 shadow-xl shadow-gray-400 mx-auto bg-white"
+        className="min-h-[50vh] md:min-h-screen w-[95vw] overflow-x-hidden my-6 py-6 md:px-5 shadow-xl shadow-gray-400 mx-auto bg-white"
         data-aos="fade-up"
         data-aos-duration="800"
       >

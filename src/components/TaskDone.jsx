@@ -7,7 +7,7 @@ function TaskDone() {
     return (
         <section
             id="taskDone"
-            className='relative mt-3 md:mt-6 mb-2 min-h-[95vh] w-full overflow-x-hidden bg-white md:pt-6 pt-3 pb-2'
+            className='relative mt-6 mb-2 min-h-[95vh] w-full overflow-x-hidden bg-white pt-6 pb-2'
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-duration="1000"

@@ -5,7 +5,7 @@ function MultipleProjectTask() {
     return (
         <section
             id="multipleProjectTask"
-            className="my-6 md:my-12 min-h-screen w-[85vw] overflow-x-hidden mx-auto" 
+            className="my-6 min-h-screen w-[85vw] overflow-x-hidden mx-auto py-6" 
             data-aos="fade-up"
             data-aos-duration="1000"
         >

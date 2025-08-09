@@ -6,7 +6,7 @@ function TaskflowConcept() {
         <div>
             <section
                 id="taskFlowConcept"
-                className='my-3 md:my-8 min-h-screen w-[95vw] overflow-x-hidden md:px-4 rounded-lg py-3 md:py-6 mx-auto'
+                className='my-6 py-6 min-h-screen w-[95vw] overflow-x-hidden md:px-4 rounded-lg mx-auto'
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >

@@ -28,7 +28,7 @@ const cards = [
 function Testimonials() {
   return (
     <div>
-      <section id="Testimonials" className='min-h-screen w-full overflow-x-hidden px-2 md:px-5 my-7 md:my-12 flex flex-col justify-center items-center bg-gray-100 py-12'>
+      <section id="Testimonials" className='min-h-screen w-full overflow-x-hidden px-2 md:px-5  flex flex-col justify-center items-center bg-gray-100 my-6 py-6'>
 
         {/* Section Heading */}
         <h1

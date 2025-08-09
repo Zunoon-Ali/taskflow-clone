@@ -7,7 +7,7 @@ function Roadmap() {
         <div>
             <section
                 id="roadmap"
-                className='min-h-screen w-full overflow-x-hidden px-2 my-6 md:my-12 flex flex-col justify-center items-center'
+                className='min-h-screen w-full overflow-x-hidden px-2 my-6 py-6 flex flex-col justify-center items-center'
             >
                 {/* Heading */}
                 <h1

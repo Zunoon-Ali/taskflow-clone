@@ -8,7 +8,7 @@ function TimerEnhanced() {
         <div>
             <section
                 id="timerEnhanced"
-                className="my-3 md:my-12 min-h-screen w-full overflow-x-hidden md:py-12 py-3 flex md:flex-row flex-wrap flex-col"
+                className="my-6 py-6 min-h-screen w-full overflow-x-hidden  flex md:flex-row flex-wrap flex-col"
             >
                 {/* Heading */}
                 <div

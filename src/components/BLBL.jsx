@@ -6,7 +6,7 @@ function BLBL() {
         <div>
             <section
                 id="blbl"
-                className='my-3 md:my-12 min-h-auto w-[95vw] overflow-x-hidden bg-white shadow-xl shadow-gray-400 md:py-6 py-3 mx-auto'
+                className='my-6 py-6 min-h-auto w-[95vw] overflow-x-hidden bg-white shadow-xl shadow-gray-400 mx-auto'
                 data-aos="fade-up"
                 data-aos-duration="800"
             >

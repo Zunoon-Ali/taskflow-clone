@@ -4,7 +4,7 @@ function AvailableMacIphone() {
     return (
         <section
             id="availableMacIphone"
-            className="my-3 md:my-12 min-h-screen w-full overflow-x-hidden px-2 md:px-4 mx-auto" 
+            className="my-6 py-6 min-h-screen w-full overflow-x-hidden px-2 md:px-4 mx-auto" 
             data-aos="fade-up"
             data-aos-duration="1000"
         >

@@ -8,14 +8,14 @@ function AddNotes() {
         <div>
             <section
                 id="setDueDatesAndPriorities"
-                className='my-3 md:my-12 min-h-screen w-full overflow-x-hidden md:py-12 py-3'
+                className='my-6 py-6 min-h-screen w-[98vw] overflow-x-hidden '
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
                 <div className="addNotesContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl px-5">
 
                     <div
-                        className="setDueDates flex flex-wrap flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-5"
+                        className="setDueDates flex flex-wrap flex-col items-center justify-center w-[90vw] md:w-3/4 bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-5"
                         data-aos="fade-right"
                         data-aos-delay="200"
                         data-aos-duration="1000"
@@ -29,7 +29,7 @@ function AddNotes() {
                     </div>
 
                     <div
-                        className="addNotesPriorities flex flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-4"
+                        className="addNotesPriorities flex flex-col items-center justify-center w-[90vw] md:w-3/4 bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-4"
                         data-aos="fade-left"
                         data-aos-delay="400"
                         data-aos-duration="1000"

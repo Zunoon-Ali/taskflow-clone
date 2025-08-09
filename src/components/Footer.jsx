@@ -12,7 +12,7 @@ function Footer() {
     return (
         <section
             id="footer"
-            className="min-h-35 w-full overflow-x-hidden bg-gray-100 md:py-12 py-3"
+            className="min-h-35 w-full overflow-x-hidden bg-gray-100 mt-6 py-8"
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="800"

@@ -6,7 +6,7 @@ function ManageDueDates() {
         <div>
             <section
                 id="manageDueDates"
-                className="my-3 md:my-8 min-h-screen w-full overflow-x-hidden md:py-8 py-3 px-1 md:px-5"
+                className="my-6 py-6 min-h-screen w-full overflow-x-hidden px-1 md:px-5"
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
