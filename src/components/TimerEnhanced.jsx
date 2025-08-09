@@ -8,7 +8,7 @@ function TimerEnhanced() {
         <div>
             <section
                 id="timerEnhanced"
-                className="my-3 md:my-12 min-h-screen w-full overflow-x-hidden md:py-12 py-3"
+                className="my-3 md:my-12 min-h-screen w-full overflow-x-hidden md:py-12 py-3 flex md:flex-row flex-wrap flex-col"
             >
                 {/* Heading */}
                 <div
@@ -40,26 +40,26 @@ function TimerEnhanced() {
 
                     {/* Right Side */}
                     <div
-                        className="rightDiv flex flex-col items-start w-full md:w-[35vw] px-3 md:px-5 my-16 md:my-0"
+                        className="rightDiv flex flex-col items-start w-3/4 md:w-[35vw] px-3 md:px-5 my-16 md:my-0"
                         data-aos="fade-left"
                         data-aos-delay="400"
                         data-aos-duration="1000"
                     >
-                        <h1 className="text-3xl md:text-5xl font-semibold text-gray-800 flex items-center mb-8">
+                        <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 flex items-center mb-8">
                             <GiSettingsKnobs className="text-5xl mr-4 bg-blue-700 text-white rounded-full border-2 border-blue-700 p-1 -rotate-90 font-extrabold" />
                             Flexible
                         </h1>
 
-                        <h2 className="mb-4 leading-9 text-gray-800 text-xl md:text-2xl">
+                        <h2 className="mb-4 leading-9 text-gray-800 text-lg md:text-xl">
                             Need a moment to finish your focus?{" "}
                             <span className="font-bold text-blue-700">Postpone</span> will remind you in a few minutes.
                         </h2>
-                        <h2 className="mb-6 leading-9 text-gray-800 text-xl md:text-2xl">
+                        <h2 className="mb-6 leading-9 text-gray-800 text-lg md:text-xl">
                             Often forget to get back to work?{" "}
                             <span className="text-orange-600 italic">Strict mode</span> will remind you when your break is over.
                         </h2>
                         <div
-                            className="rightImg flex items-center justify-center w-full md:w-3/4 my-10 md:my-0 px-2 md:px-4"
+                            className="rightImg flex items-center justify-center my-10 md:my-0 mx-auto w-full "
                             data-aos="zoom-in"
                             data-aos-delay="600"
                             data-aos-duration="1000"
@@ -67,7 +67,7 @@ function TimerEnhanced() {
                             <img
                                 src="./Focus-Timer-Flexible-iPhone.webp"
                                 alt="Focus Timer Flexible"
-                                className="w-full md:1/2 rounded-lg"
+                                className="w-full md:w-[22vw] rounded-lg "
                                 loading="lazy"
                             />
                         </div>

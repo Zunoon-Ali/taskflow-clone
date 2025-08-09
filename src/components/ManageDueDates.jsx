@@ -6,15 +6,15 @@ function ManageDueDates() {
         <div>
             <section
                 id="manageDueDates"
-                className="my-3 md:my-8 min-h-screen w-full overflow-x-hidden md:py-8 py-3"
+                className="my-3 md:my-8 min-h-screen w-full overflow-x-hidden md:py-8 py-3 px-1 md:px-5"
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
                 <div
-                    className="manageDueDatesContainer flex flex-col gap-4 bg-white w-[90%] md:w-3/4 mx-auto shadow-xl shadow-gray-400 px-4 py-4 rounded-2xl"
+                    className="manageDueDatesContainer flex flex-col gap-4 bg-white w-full mx-auto shadow-xl shadow-gray-400 px-4 py-4 rounded-2xl flex-wrap"
                 >
                     <div
-                        className="dueDateHeading flex flex-col gap-4 w-[90%] md:w-3/4 mx-auto md:px-5 md:py-8 rounded-xl"
+                        className="dueDateHeading flex flex-col gap-4 w-[90%] md:w-3/4 mx-auto px-2 md:px-5 md:py-8 rounded-xl"
                         data-aos="fade-up"
                         data-aos-delay="0"
                         data-aos-duration="1000"
@@ -31,7 +31,7 @@ function ManageDueDates() {
                     </div>
 
                     <div
-                        className="manageDueDateContent flex flex-col md:flex-row justify-between gap-6 w-[90%] md:w-3/4 mx-auto mt-6 md:mt-10"
+                        className="manageDueDateContent flex flex-col md:flex-row justify-between gap-6 w-full md:w-3/4 mx-auto mt-6 md:mt-10 md:px-0"
                     >
                         <div
                             className="text flex flex-col items-start text-lg md:text-xl text-gray-800 md:w-1/2 font-medium"
@@ -52,7 +52,7 @@ function ManageDueDates() {
                         <img
                             src="./Manage-Due-Dates-Images.webp"
                             alt="Task Flow Manage Due Dates"
-                            className="w-full md:w-1/2 rounded-lg"
+                            className="w-3/4 md:w-1/2 rounded-lg"
                             data-aos="fade-left"
                             data-aos-delay="400"
                             data-aos-duration="1000"

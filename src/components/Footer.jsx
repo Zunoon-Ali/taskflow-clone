@@ -28,7 +28,7 @@ function Footer() {
                     {footer.map((item, index) => (
                         <a
                             href={item.link}
-                            className="text-blue-600 md:text-xl text-lg font-medium hover:underline transition-all duration-200"
+                            className="text-blue-600 md:text-xl text-md font-medium hover:underline transition-all duration-200"
                             key={index}
                         >
                             {item.text}

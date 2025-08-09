@@ -12,10 +12,10 @@ function AddNotes() {
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
-                <div className="addNotesContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl">
+                <div className="addNotesContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl px-5">
 
                     <div
-                        className="setDueDates flex flex-wrap flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full"
+                        className="setDueDates flex flex-wrap flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-5"
                         data-aos="fade-right"
                         data-aos-delay="200"
                         data-aos-duration="1000"
@@ -24,12 +24,12 @@ function AddNotes() {
                             imageSrc="./Set-Due-Dates-iPhone.webp"
                             heading="Set Due Dates"
                             Icon={IoCalendar}
-                            imgClassName={"md:w-[20vw] w-full"}
+                            imgClassName={"w-full md:w-[20vw]"}
                         />
                     </div>
 
                     <div
-                        className="addNotesPriorities flex flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full"
+                        className="addNotesPriorities flex flex-col items-center justify-center w-[98vw] md:w-[38vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-4"
                         data-aos="fade-left"
                         data-aos-delay="400"
                         data-aos-duration="1000"
@@ -38,7 +38,7 @@ function AddNotes() {
                             imageSrc="./Add-Notes-and-Priorities-iPhone.webp"
                             heading="Add Notes and Priorities"
                             Icon={IoFlagSharp}
-                            imgClassName={"md:w-[20vw] w-full"}
+                            imgClassName={"md:w-[20vw] w-3/4"}
                         />
                     </div>
 

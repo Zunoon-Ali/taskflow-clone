@@ -6,7 +6,7 @@ function Hero() {
     return (
         <section
             id="hero"
-            className="mb-3 md:mb-8 py-3 md:py-6 min-h-screen w-full bg-white overflow-x-hidden"
+            className="mb-3 md:mb-8 py-5 md:py-6 min-h-screen w-full bg-white overflow-x-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
         >

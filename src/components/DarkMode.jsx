@@ -4,11 +4,11 @@ function DarkMode() {
     return (
         <section
             id="darkMode"
-            className='relative min-h-[60vh] w-full bg-black px-4 md:px-12 py-10 shadow-xl shadow-black -top-2'
+            className='relative min-h-[60vh] w-full bg-black px-4 md:px-12 py-16 shadow-xl shadow-black -top-2'
         >
             {/* Heading */}
             <h1
-                className="text-4xl md:text-5xl font-semibold text-white text-center md:text-start md:absolute md:bottom-35 md:left-30 mb-12"
+                className="text-4xl md:text-5xl font-semibold text-white text-center md:text-start md:absolute md:bottom-2 md:left-30 mb-12"
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
@@ -26,8 +26,8 @@ function DarkMode() {
                     data-aos-delay="200"
                     data-aos-duration="1000"
                 >
-                    <img src="./Dark-Mode-iPad.webp" alt="Dark Mode" className="w-full md:w-90 hidden md:block" loading="lazy" />
-                    <img src="./Dark-Mode-iPhone-1.webp" alt="Dark Mode" className="w-full md:3/4 mb-4" loading="lazy" />
+                    <img src="./Dark-Mode-iPad.webp" alt="Dark Mode" className="w-3/4 md:w-90 hidden md:block" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-1.webp" alt="Dark Mode" className="w-3/4 md:w-full mb-4" loading="lazy" />
                 </div>
 
                 {/* Column 2 */}
@@ -37,8 +37,8 @@ function DarkMode() {
                     data-aos-delay="400"
                     data-aos-duration="1000"
                 >
-                    <img src="./Dark-Mode-iPhone-2.webp" alt="Dark Mode" className="w-full md:3/4 mb-4" loading="lazy" />
-                    <img src="./Dark-Mode-iPhone-3.webp" alt="Dark Mode" className="w-full md:3/4 mb-4" data-aos="fade-left" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-2.webp" alt="Dark Mode" className="w-3/4 md:w-full mb-4" loading="lazy" />
+                    <img src="./Dark-Mode-iPhone-3.webp" alt="Dark Mode" className="w-3/4 md:w-full mb-4" data-aos="fade-left" loading="lazy" />
                 </div>
 
                 {/* Column 3 */}

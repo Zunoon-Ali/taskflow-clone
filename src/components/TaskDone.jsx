@@ -36,12 +36,12 @@ function TaskDone() {
             </div>
 
             <div
-                className="btn w-full"
+                className="btn w-full absolute bottom-10 left-10 md:-left-20 transform md:translate-x-1/2"
                 data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-duration="900"
             >
-                <button className='absolute top-40 md:top-20 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3 text-orange-500 border border-orange-500 px-4 py-1 rounded-md cursor-pointer md:w-auto w-[220px]'>
+                <button className='flex items-center justify-center gap-3 text-orange-500 border border-orange-500 px-4 py-1 rounded-md cursor-pointer md:w-auto w-[260px]'>
                     <span>
                         <FaCreativeCommonsPdAlt className='text-xl md:text-3xl text-white bg-orange-700 rounded-full p-1' />
                     </span>

@@ -36,12 +36,12 @@ function Testimonials() {
           data-aos="fade-up"
           data-aos-duration="800"
         >
-          <BiHeartCircle className="text-5xl md:text-6xl mr-2 md:mr-4 bg-red-600 text-white rounded-full p-1" />
+          <BiHeartCircle className="text-5xl md:text-6xl mr-0 md:mr-4 bg-red-600 text-white rounded-full p-1" />
           Loved Around the World
         </h1>
 
         {/* Testimonial Cards */}
-        <div className="testimonialsContainer flex items-center flex-col md:flex-row justify-between gap-12">
+        <div className="testimonialsContainer flex items-center flex-col md:flex-row justify-center gap-12 flex-wrap px-2">
           {
             cards.map((card, index) => (
               <div

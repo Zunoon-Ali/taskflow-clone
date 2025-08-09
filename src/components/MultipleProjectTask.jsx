@@ -36,7 +36,7 @@ function MultipleProjectTask() {
                 <img
                     src="./Multiple-Projects-iPhone.webp"
                     alt="Multiple project task on iPhone"
-                    className="md:w-[20vw] w-full rounded-lg shadow-md"
+                    className="md:w-[22%] w-3/4 rounded-lg shadow-md"
                     data-aos="fade-left"
                     data-aos-delay="400"
                     data-aos-duration="1000"
