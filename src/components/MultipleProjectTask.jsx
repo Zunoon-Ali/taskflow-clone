@@ -5,12 +5,12 @@ function MultipleProjectTask() {
     return (
         <section
             id="multipleProjectTask"
-            className="my-6 min-h-screen w-[85vw] overflow-x-hidden mx-auto py-6" 
+            className="my-6 min-h-screen w-[85vw] overflow-x-hidden mx-auto py-6  bg-white shadow-xl shadow-gray-400 rounded-xl py-12" 
             data-aos="fade-up"
             data-aos-duration="1000"
         >
             <div
-                className="multipleProjectContainer flex flex-col md:flex-row items-center justify-center bg-white rounded-xl py-12 gap-8 shadow-xl shadow-gray-400 px-2 md:px-8"
+                className="multipleProjectContainer flex flex-col md:flex-row items-center justify-center gap-8 px-2 md:px-8"
             >
                 <div
                     className="multipleProjectContent flex flex-col items-start md:items-center justify-center md:w-1/2 w-full"

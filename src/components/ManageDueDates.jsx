@@ -6,12 +6,12 @@ function ManageDueDates() {
         <div>
             <section
                 id="manageDueDates"
-                className="my-6 py-6 min-h-screen w-full overflow-x-hidden px-1 md:px-5"
+                className="my-6 py-6 min-h-screen w-[90vw] overflow-x-hidden px-1 md:px-5 bg-white mx-auto shadow-xl shadow-gray-400 rounded-2xl"
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
                 <div
-                    className="manageDueDatesContainer flex flex-col gap-4 bg-white w-full mx-auto shadow-xl shadow-gray-400 px-4 py-4 rounded-2xl flex-wrap"
+                    className="manageDueDatesContainer flex flex-col gap-4 flex-wrap px-4 "
                 >
                     <div
                         className="dueDateHeading flex flex-col gap-4 w-[90%] md:w-3/4 mx-auto px-2 md:px-5 md:py-8 rounded-xl"

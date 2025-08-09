@@ -9,14 +9,14 @@ function SubstackAttachement() {
     <div>
       <section
         id='substackAttachment'
-        className='my-6 py-6 min-h-screen w-[98vw] overflow-x-hidden mx-auto'
+        className='my-6 py-6 min-h-screen w-[98vw] overflow-x-hidden mx-auto bg-gray-100'
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         <div className="substackAttachmentContainer flex flex-col md:flex-row items-center justify-between mx-auto gap-5 max-w-6xl">
 
           <div
-            className="leftSubstackAttachment flex flex-col items-center justify-between w-[90vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-18"
+            className="leftSubstackAttachment flex flex-col items-center justify-between w-[90vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 overflow-hidden flex-grow h-full py-18 min-h-screen"
             data-aos="fade-right"
             data-aos-delay="200"
             data-aos-duration="1000"
@@ -30,7 +30,7 @@ function SubstackAttachement() {
           </div>
 
           <div
-            className="rightDragDrop min-h-[400px] flex flex-col items-center justify-between w-[90vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 "
+            className="rightDragDrop min-h-screen flex flex-col items-center justify-between w-[90vw] bg-white shadow-lg shadow-gray-400 rounded-xl my-5 "
             data-aos="fade-left"
             data-aos-delay="400"
             data-aos-duration="1000"

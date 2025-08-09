@@ -6,7 +6,7 @@ function TaskflowConcept() {
         <div>
             <section
                 id="taskFlowConcept"
-                className='my-6 py-6 min-h-screen w-[95vw] overflow-x-hidden md:px-4 rounded-lg mx-auto'
+                className='my-6 py-6 min-h-screen w-[95vw] overflow-x-hidden md:px-4 rounded-lg mx-auto bg-gray-100'
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
@@ -22,7 +22,7 @@ function TaskflowConcept() {
                 </div>
 
                 <div
-                    className="narrowTaskflow min-h-auto my-12 bg-white w-full mx-auto shadow-xl shadow-gray-400 rounded-xl flex flex-col md:flex-row items-center justify-center gap-4 px-3 md:py-8 py-5"
+                    className="narrowTaskflow min-h-auto my-12 bg-white w-full mx-auto shadow-xl shadow-gray-400 rounded-xl flex flex-col md:flex-row items-end justify-center gap-4 px-3 py-10"
                 >
                     <div
                         className="flex flex-col items-center justify-center gap-4 mb-5"

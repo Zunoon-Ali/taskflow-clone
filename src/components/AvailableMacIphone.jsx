@@ -4,11 +4,11 @@ function AvailableMacIphone() {
     return (
         <section
             id="availableMacIphone"
-            className="my-6 py-6 min-h-screen w-full overflow-x-hidden px-2 md:px-4 mx-auto" 
+            className="my-6 py-6 min-h-screen w-full overflow-x-hidden px-2 md:px-4 mx-auto bg-white" 
             data-aos="fade-up"
             data-aos-duration="1000"
         >
-            <div className="availableMacIphoneContainer bg-white w-full text-center flex flex-col items-center rounded-xl shadow-xl shadow-gray-400 py-8">
+            <div className="availableMacIphoneContainer  w-full text-center flex flex-col items-center rounded-xl shadow-xl shadow-gray-400 py-8">
                 <h1
                     className="text-5xl md:text-6xl font-semibold text-gray-800 mt-6 mb-16 leading-tight"
                     data-aos="zoom-in-up"
